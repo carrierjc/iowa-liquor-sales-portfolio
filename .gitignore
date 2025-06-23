@@ -1,0 +1,19 @@
+# Ignore data files and outputs
+data/
+outputs/
+excel/
+
+# Ignore common large/binary files
+*.csv
+*.xlsx
+*.gz
+*.zip
+*.json
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env
